@@ -42,7 +42,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        href="/Rishika_Portfolio/resume.pdf" 
+        href={`${import.meta.env.BASE_URL}resume.pdf`}
         download="Rishika_Kumari_Resume.pdf" 
         className="mt-4 px-6 py-3 bg-orange text-white font-semibold text-lg rounded-lg flex items-center gap-2 w-fit mx-auto md:mx-0 hover:bg-orange-700 transition-all duration-300"
       >
