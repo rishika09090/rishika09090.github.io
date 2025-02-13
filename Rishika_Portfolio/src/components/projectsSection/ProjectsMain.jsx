@@ -15,7 +15,7 @@ const projects = [
     name: "ToDo App",
     year: "Feb 2025",
     align: "left",
-    image: `${import.meta.env.BASE_URL}website-img-2.jpg`,
+    image: `${import.meta.env.BASE_URL}website-img-2.webp`,
     link: "#",
   },
   {
