@@ -3,7 +3,7 @@ const AboutMeImage = () => {
     <div className="h-[500px] w-[300px] relative">
       <div className="h-[500px] w-[300px] rounded-[100px] absolute overflow-hidden">
         <img
-          src="/Rishika_Portfolio/about-me.jpg"
+          src={`${import.meta.env.BASE_URL}about-me.png`}
           alt="About Me Image"
           className="h-full w-auto object-cover"
         />
