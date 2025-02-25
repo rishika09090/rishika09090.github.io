@@ -42,9 +42,25 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        href={`${import.meta.env.BASE_URL}resume.pdf`}
-        download="Rishika_Kumari_Resume.pdf" 
+        href={`${import.meta.env.BASE_URL}Rishika_Kumari_Resume.pdf`}
+        target="_blank"
+        rel="noopener noreferrer"
         className="mt-4 px-6 py-3 bg-orange text-white font-semibold text-lg rounded-lg flex items-center gap-2 w-fit mx-auto md:mx-0 hover:bg-orange-700 transition-all duration-300"
+        onClick={(e) => {
+          e.preventDefault(); // Prevent default anchor behavior
+          const resumeUrl = `${
+            import.meta.env.BASE_URL
+          }Rishika_Kumari_Resume.pdf`;
+          window.open(resumeUrl, "_blank"); // Open in new tab
+          setTimeout(() => {
+            const link = document.createElement("a");
+            link.href = resumeUrl;
+            link.download = "Rishika_Kumari_Resume.pdf";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+          }, 500); // Delay to allow opening before downloading
+        }}
       >
         <BsDownload /> My Resume
       </motion.a>

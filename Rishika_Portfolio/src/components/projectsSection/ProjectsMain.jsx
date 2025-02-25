@@ -6,21 +6,21 @@ import { fadeIn } from "../../framerMotion/variants";
 const projects = [
   {
     name: "Miss Mart",
-    year: "Jan 2025",
+    year: "A fully functional e-commerce platform inspired by Bigbasket. Miss Mart offers an intuitive shopping experience with features like browsing products, adding items to the cart, and managing user accounts.",
     align: "right",
     image: `${import.meta.env.BASE_URL}website-img-1.jpg`,
     link: "https://rishika09090.github.io/MissMart/",
   },
   {
     name: "ToDo App",
-    year: "Feb 2025",
+    year: "A full-stack To-Do app built with Node.js, React, and MongoDB. It features email authentication, OAuth login, CronJobs, Redis caching, Nodemailer, and Swagger API documentation.",
     align: "left",
     image: `${import.meta.env.BASE_URL}website-img-2.webp`,
     link: "#",
   },
   {
     name: "My Portfolio Website",
-    year: "Feb 2025",
+    year: "A sleek portfolio website built with React, showcasing projects and skills. It features a Contact Me form powered by EmailJS for seamless email communication.",
     align: "right",
     image: `${import.meta.env.BASE_URL}website-img-3.jpg`,
     link: "#",
