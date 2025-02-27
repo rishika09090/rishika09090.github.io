@@ -2,7 +2,7 @@ import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
-const SingleProject = ({ name, year, align, image, link }) => {
+const SingleProject = ({ name, year, align, image, link, githubLink }) => {
   return (
     <motion.div
       variants={fadeIn("top", 0)}
@@ -27,6 +27,14 @@ const SingleProject = ({ name, year, align, image, link }) => {
           className={`text-lg flex gap-2 items-center text-cyan hover:text-orange transition-all duration-500 cursor-pointer sm:justify-self-center md:justify-self-start`}
         >
           View <BsFillArrowUpRightCircleFill />
+        </a>
+        <a
+          href={githubLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`text-lg flex gap-2 items-center text-cyan hover:text-orange transition-all duration-500 cursor-pointer sm:justify-self-center md:justify-self-start`}
+        >
+          Github Link <BsFillArrowUpRightCircleFill />
         </a>
       </div>
       <div className="max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 ralative border border-white">

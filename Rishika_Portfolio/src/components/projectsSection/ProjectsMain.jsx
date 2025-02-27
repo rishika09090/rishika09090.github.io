@@ -10,6 +10,7 @@ const projects = [
     align: "right",
     image: `${import.meta.env.BASE_URL}website-img-1.jpg`,
     link: "https://rishika09090.github.io/MissMart/",
+    githubLink: "https://github.com/rishika09090/MissMart"
   },
   {
     name: "ToDo App",
@@ -17,6 +18,7 @@ const projects = [
     align: "left",
     image: `${import.meta.env.BASE_URL}website-img-2.webp`,
     link: "#",
+    githubLink: "https://github.com/rishika09090/to-do-app-frontend"
   },
   {
     name: "My Portfolio Website",
@@ -24,6 +26,7 @@ const projects = [
     align: "right",
     image: `${import.meta.env.BASE_URL}website-img-3.jpg`,
     link: "#",
+    githubLink: "https://github.com/rishika09090/rishika09090.github.io"
   },
   // {
   //   name: "Bank of Luck",
