@@ -58,6 +58,7 @@ const ProjectsMain = () => {
               align={project.align}
               image={project.image}
               link={project.link}
+              githubLink={project.githubLink}
             />
           );
         })}
