@@ -14,10 +14,10 @@ const projects = [
   },
   {
     name: "ToDo App",
-    year: "A full-stack To-Do app built with Node.js, React, and MongoDB. It features email authentication, OAuth login, CronJobs, Redis caching, Nodemailer, and Swagger API documentation.",
+    year: "A Full-Stack To-Do App built with Node.js, React, and MongoDB. It offers seamless email authentication, efficient Redis caching, secure JWT session management, and intuitive CRUD operations for users to manage their tasks effortlessly.",
     align: "left",
     image: `${import.meta.env.BASE_URL}website-img-2.webp`,
-    link: "#",
+    link: "https://65677556-9326-43b1-bdf3-ae161fdd6d24.e1-us-east-azure.choreoapps.dev/",
     githubLink: "https://github.com/rishika09090/to-do-app-frontend"
   },
   {
